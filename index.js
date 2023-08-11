@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 
 require("dotenv").config();
 
-const port = process.env.PORT;
+const port = process.env.PORT || 8000;
 const conn = process.env.CONN_STR;
 
 mongoose
